@@ -11,7 +11,7 @@
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Yantramanav:wght@400;500;700&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Yantramanav:wght@400;500;700&display=swap" rel="stylesheet">
 
         <!-- Icon Font Stylesheet -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
@@ -84,17 +84,17 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="#" class="nav-item nav-link active">Home</a>
-                        <a href="#" class="nav-item nav-link">About</a>
-                        <a href="#" class="nav-item nav-link">Gallery</a>
-                        <a href="#" class="nav-item nav-link">Sikh Culture</a>
+                        <a href="#carousel" class="nav-item nav-link active">Home</a>
+                        <a href="#about-us" class="nav-item nav-link">About</a>
+                        <a href="#gallery" class="nav-item nav-link">Gallery</a>
+                        <a href="#sikh-culture" class="nav-item nav-link">Sikh Culture</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Other</a>
                             <div class="dropdown-menu m-0">
-                                <a href="#" class="dropdown-item">Online Exams</a>
-                                <a href="#" class="dropdown-item">Offline Exams</a>
-                                <a href="#" class="dropdown-item">Members</a>
-                                <a href="#" class="dropdown-item">Donation</a>
+                                <a href="#online-exams" class="dropdown-item">Online Exams</a>
+                                <a href="#offline-exams" class="dropdown-item">Offline Exams</a>
+                                <a href="#team" class="dropdown-item">Members</a>
+                                <a href="#donation" class="dropdown-item">Donation</a>
                                 <!-- <a href="training.html" class="dropdown-item">Dance Training</a>
                                 <a href="team.html" class="dropdown-item">Our Team</a>
                                 <a href="testimonial.html" class="dropdown-item">Testimonial</a>
@@ -102,7 +102,7 @@
                                 <a href="404.html" class="dropdown-item">404 Page</a> -->
                             </div>
                         </div>
-                        <a href="#" class="nav-item nav-link">Contact Us</a>
+                        <a href="#contact-us" class="nav-item nav-link">Contact Us</a>
                     </div>
                     <!-- <a href="#" class="btn btn-primary text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Register Now</a> -->
                 </div>
@@ -112,7 +112,7 @@
 
 
         <!-- Carousel Start -->
-        <div class="header-carousel owl-carousel">
+        <div id="carousel" class="header-carousel owl-carousel">
             <div class="header-carousel-item">
                 <img src="img/carousel-1.jpg" class="img-fluid w-100" alt="Image">
                 <div class="carousel-caption">
@@ -123,7 +123,7 @@
                         </p> -->
                         <div class="pt-2">
                             <!-- <a class="btn btn-primary text-white py-3 px-5 m-2 wow fadeInLeft" data-wow-delay="0.1s" href="#">Join Now</a> -->
-                            <a class="btn btn-secondary text-white py-3 px-5 m-2 wow fadeInRight" data-wow-delay="0.3s" href="#">Scroll Down</a>
+                            <a class="btn btn-secondary text-white py-3 px-5 m-2 wow fadeInRight" data-wow-delay="0.3s" href="#about-us">Scroll Down</a>
                         </div>
                     </div>
                 </div>
@@ -138,7 +138,7 @@
                         </p> -->
                         <div class="pt-2">
                             <!-- <a class="btn btn-primary text-white py-3 px-5 m-2 wow fadeInLeft" data-wow-delay="0.1s" href="#">Join Now</a> -->
-                            <a class="btn btn-secondary text-white py-3 px-5 m-2 wow fadeInRight" data-wow-delay="0.3s" href="#">Scroll Down</a>
+                            <a class="btn btn-secondary text-white py-3 px-5 m-2 wow fadeInRight" data-wow-delay="0.3s" href="#about-us">Scroll Down</a>
                         </div>
                     </div>
                 </div>
@@ -153,7 +153,7 @@
                         </p> -->
                         <div class="pt-2">
                             <!-- <a class="btn btn-primary text-white py-3 px-5 m-2 wow fadeInLeft" data-wow-delay="0.1s" href="#">Join Now</a> -->
-                            <a class="btn btn-secondary text-white py-3 px-5 m-2 wow fadeInRight" data-wow-delay="0.3s" href="#">Scroll Down</a>
+                            <a class="btn btn-secondary text-white py-3 px-5 m-2 wow fadeInRight" data-wow-delay="0.3s" href="#about-us">Scroll Down</a>
                         </div>
                     </div>
                 </div>
@@ -173,7 +173,7 @@
         <!-- Banner End -->
 
         <!-- About Start -->
-        <div class="container-fluid py-5">
+        <div id="about-us" class="container-fluid py-5">
             <div class="container py-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.1s">
@@ -196,7 +196,7 @@
         <!-- About End -->
 
         <!-- Video Gallery Start -->
-        <div class="container-fluid gallery pb-5">
+        <div id="gallery" class="container-fluid gallery pb-5">
             <div class="container pb-5">
                 <div class="pb-5">
                     <h4 class="text-secondary sub-title fw-bold wow fadeInUp" data-wow-delay="0.1s">Gallery</h4>
@@ -260,7 +260,7 @@
                                 </div>
                                 <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                                     <div class="video h-100">
-                                        <img src="img/gallery/g4.jpg" class="img-fluid rounded w-100 h-100" style="object-fit: cover;" alt="">
+                                        <img src="img/gallery/g4.jpeg" class="img-fluid rounded w-100 h-100" style="object-fit: cover;" alt="">
                                         <!-- <button type="button" class="btn btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
                                             <span></span>
                                         </button> -->
@@ -300,7 +300,7 @@
                                 </div>
                                 <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                                     <div class="video h-100">
-                                        <img src="img/gallery/g8.jpg" class="img-fluid rounded w-100 h-100" style="object-fit: cover;" alt="">
+                                        <img src="img/gallery/g9.jpg" class="img-fluid rounded w-100 h-100" style="object-fit: cover;" alt="">
                                         <!-- <button type="button" class="btn btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
                                             <span></span>
                                         </button> -->
@@ -324,7 +324,7 @@
         <!-- Video Gallery End -->
 
         <!-- Sikh Culture Start -->
-        <div class="container-fluid py-5 bg-light">
+        <div id="sikh-culture" class="container-fluid py-5 bg-light">
             <div class="container py-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.3s">
@@ -485,7 +485,7 @@
 
 
         <!-- Online Exams Section Start -->
-        <div class="container-fluid class bg-light py-5">
+        <!-- <div id="online-exams" class="container-fluid class bg-light py-5">
             <div class="container py-5">
                 <div class="pb-5">
                     <h4 class="text-secondary sub-title fw-bold wow fadeInUp" data-wow-delay="0.1s">Online Exams</h4>
@@ -494,63 +494,122 @@
                 <div class="class-carousel owl-carousel pt-5 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="class-item bg-white rounded wow fadeInUp" data-wow-delay="0.1s">
                         <div class="class-img rounded-top">
-                            <img src="img/class-1.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            <img src="img/exam.jpg" class="img-fluid rounded-top w-100" alt="Image">
                         </div>
                         <div class="rounded-bottom p-4">
-                            <a href="#" class="h4 mb-3 d-block">ਮਿਸ਼ਰਣ ਟੈਸਟ</a>
+                            <a href="#" class="h4 mb-3 d-block fw-bold">ਮਿਸ਼ਰਣ ਟੈਸਟ</a>
                             <p class="mb-3">450 ਸ਼ਤਾਬਦੀ, ਗੁਰਮਤਿ ਗਿਆਨ ਸਭਾ, ਨਾਰਾਇਣਗੜ੍ਹ, ਛੇਹਰਟਾ, ਸ਼੍ਰੀ ਅੰਮ੍ਰਿਤਸਰ ਸਾਹਿਬ</p>
-                            <a class="btn btn-primary text-white py-2 px-4" href="https://forms.gle/8LcrAWnSk6qsr1DF6" target="_blank" onclick="if(confirm('Are you sure you want to give the test?')) { alert('Test will be started on a new page.'); } else { return false; }">Start Test
+                            <a class="btn btn-primary text-white py-2 px-4" href="https://forms.gle/tziJL7nvfdeqSeBaA" target="_blank" onclick="if(confirm('Are you sure you want to give the test?')) { alert('Test will be started on a new page.'); } else { return false; }">Start Test
                             </a>
                         </div>
                     </div>
-                    <div class="class-item bg-white rounded wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="class-item bg-white rounded wow fadeInUp" data-wow-delay="0.1s">
                         <div class="class-img rounded-top">
-                            <img src="img/class-2.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            <img src="img/exam.jpg" class="img-fluid rounded-top w-100" alt="Image">
                         </div>
                         <div class="rounded-bottom p-4">
-                            <a href="#" class="h4 mb-3 d-block">Classical Dance class</a>
-                            <p class="mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni vero excepturi blanditiis quidem</p>
-                            <a class="btn btn-primary text-white py-2 px-4" href="#">Explore Details</a>
+                            <a href="#" class="h4 mb-3 d-block fw-bold">ਸ਼ਹੀਦੀ ਗੁਰਪੁਰਬ ਸ਼੍ਰੀ ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ</a>
+                            <p class="mb-3">ਸ਼ਹੀਦੀ ਗੁਰਪੁਰਬ ਸ਼੍ਰੀ ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ,ਪੇਪਰ, ਗੁਰਮਤਿ ਗਿਆਨ ਸਭਾ, ਨਰੈਣਗੜ੍ਹ, ਛੇਹਰਟਾ, ਸ਼੍ਰੀ ਅੰਮ੍ਰਿਤਸਰ ਸਾਹਿਬ</p>
+                            <a class="btn btn-primary text-white py-2 px-4" href="https://forms.gle/rqSiaaNpsCYFGaH19" target="_blank" onclick="if(confirm('Are you sure you want to give the test?')) { alert('Test will be started on a new page.'); } else { return false; }">Start Test
+                            </a>
                         </div>
                     </div>
-                    <div class="class-item bg-white rounded wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="class-item bg-white rounded wow fadeInUp" data-wow-delay="0.1s">
                         <div class="class-img rounded-top">
-                            <img src="img/class-3.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            <img src="img/exam.jpg" class="img-fluid rounded-top w-100" alt="Image">
                         </div>
                         <div class="rounded-bottom p-4">
-                            <a href="#" class="h4 mb-3 d-block">Classical Dance class</a>
-                            <p class="mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni vero excepturi blanditiis quidem</p>
-                            <a class="btn btn-primary text-white py-2 px-4" href="#">Explore Details</a>
+                            <a href="#" class="h4 mb-3 d-block fw-bold">ਸ਼ਹੀਦੀ ਗੁਰਪੁਰਬ ਸ਼੍ਰੀ ਗੁਰੂ ਤੇਗ ਬਹਾਦਰ ਜੀ</a>
+                            <p class="mb-3">ਸ਼ਹੀਦੀ ਗੁਰਪੁਰਬ ਸ਼੍ਰੀ ਗੁਰੂ ਤੇਗ ਬਹਾਦਰ ਜੀ,ਪੇਪਰ, ਗੁਰਮਤਿ ਗਿਆਨ ਸਭਾ, ਨਰੈਣਗੜ੍ਹ, ਛੇਹਰਟਾ, ਸ਼੍ਰੀ ਅੰਮ੍ਰਿਤਸਰ ਸਾਹਿਬ</p>
+                            <a class="btn btn-primary text-white py-2 px-4" href="https://forms.gle/UTS45bqWH6qmEjCQ8" target="_blank" onclick="if(confirm('Are you sure you want to give the test?')) { alert('Test will be started on a new page.'); } else { return false; }">Start Test
+                            </a>
                         </div>
                     </div>
-                    <div class="class-item bg-white rounded wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="class-item bg-white rounded wow fadeInUp" data-wow-delay="0.1s">
                         <div class="class-img rounded-top">
-                            <img src="img/class-2.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            <img src="img/exam.jpg" class="img-fluid rounded-top w-100" alt="Image">
                         </div>
                         <div class="rounded-bottom p-4">
-                            <a href="#" class="h4 mb-3 d-block">Classical Dance class</a>
-                            <p class="mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni vero excepturi blanditiis quidem</p>
-                            <a class="btn btn-primary text-white py-2 px-4" href="#">Explore Details</a>
+                            <a href="#" class="h4 mb-3 d-block fw-bold">ਸ਼ਹੀਦੀ ਚਾਰ ਸਾਹਿਬਜ਼ਾਦੇ ਅਤੇ ਮਾਤਾ ਗੁਜਰ ਕੌਰ ਜੀ</a>
+                            <p class="mb-3">ਸ਼ਹੀਦੀ ਚਾਰ ਸਾਹਿਬਜ਼ਾਦੇ ਅਤੇ ਮਾਤਾ ਗੁਜਰ ਕੌਰ ਜੀ, ਪੇਪਰ, ਗੁਰਮਤਿ ਗਿਆਨ ਸਭਾ, ਨਰੈਣਗੜ੍ਹ, ਛੇਹਰਟਾ, ਸ਼੍ਰੀ ਅੰਮ੍ਰਿਤਸਰ ਸਾਹਿਬ</p>
+                            <a class="btn btn-primary text-white py-2 px-4" href="https://forms.gle/bjvF9qUEBCKXpJEj8" target="_blank" onclick="if(confirm('Are you sure you want to give the test?')) { alert('Test will be started on a new page.'); } else { return false; }">Start Test
+                            </a>
                         </div>
                     </div>
-                    <div class="class-item bg-white rounded wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="class-item bg-white rounded wow fadeInUp" data-wow-delay="0.1s">
                         <div class="class-img rounded-top">
-                            <img src="img/class-3.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            <img src="img/exam.jpg" class="img-fluid rounded-top w-100" alt="Image">
                         </div>
                         <div class="rounded-bottom p-4">
-                            <a href="#" class="h4 mb-3 d-block">Classical Dance class</a>
-                            <p class="mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni vero excepturi blanditiis quidem</p>
-                            <a class="btn btn-primary text-white py-2 px-4" href="#">Explore Details</a>
+                            <a href="#" class="h4 mb-3 d-block fw-bold">ਗੁਰਿਆਈ ਸ਼੍ਰੀ ਗੁਰੂ ਹਰਿਗੋਬਿੰਦ ਸਾਹਿਬ ਜੀ</a>
+                            <p class="mb-3">ਗੁਰਿਆਈ ਸ਼੍ਰੀ ਗੁਰੂ ਹਰਿਗੋਬਿੰਦ ਸਾਹਿਬ ਜੀ, ਪੇਪਰ, ਗੁਰਮਤਿ ਗਿਆਨ ਸਭਾ, ਨਰੈਣਗੜ੍ਹ, ਛੇਹਰਟਾ, ਸ਼੍ਰੀ ਅੰਮ੍ਰਿਤਸਰ ਸਾਹਿਬ</p>
+                            <a class="btn btn-primary text-white py-2 px-4" href="https://forms.gle/UD8aFG3kohgtw7hS6" target="_blank" onclick="if(confirm('Are you sure you want to give the test?')) { alert('Test will be started on a new page.'); } else { return false; }">Start Test
+                            </a>
+                        </div>
+                    </div>
+                    <div class="class-item bg-white rounded wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="class-img rounded-top">
+                            <img src="img/exam.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="rounded-bottom p-4">
+                            <a href="#" class="h4 mb-3 d-block fw-bold">ਪ੍ਰਕਾਸ਼ ਸ਼੍ਰੀ ਗੁਰੂ ਅੰਗਦ ਦੇਵ ਜੀ</a>
+                            <p class="mb-3">ਪ੍ਰਕਾਸ਼ ਸ਼੍ਰੀ ਗੁਰੂ ਅੰਗਦ ਦੇਵ ਜੀ,ਪੇਪਰ, ਗੁਰਮਤਿ ਗਿਆਨ ਸਭਾ, ਨਰੈਣਗੜ੍ਹ, ਛੇਹਰਟਾ, ਸ਼੍ਰੀ ਅੰਮ੍ਰਿਤਸਰ ਸਾਹਿਬ</p>
+                            <a class="btn btn-primary text-white py-2 px-4" href="https://forms.gle/EXodWEWN74PtxdhLA" target="_blank" onclick="if(confirm('Are you sure you want to give the test?')) { alert('Test will be started on a new page.'); } else { return false; }">Start Test
+                            </a>
+                        </div>
+                    </div>
+                    <div class="class-item bg-white rounded wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="class-img rounded-top">
+                            <img src="img/exam.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="rounded-bottom p-4">
+                            <a href="#" class="h4 mb-3 d-block fw-bold">ਪ੍ਰਕਾਸ਼ ਸ਼੍ਰੀ ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ</a>
+                            <p class="mb-3">ਪ੍ਰਕਾਸ਼ ਸ਼੍ਰੀ ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ,ਪੇਪਰ, ਗੁਰਮਤਿ ਗਿਆਨ ਸਭਾ, ਨਰੈਣਗੜ੍ਹ, ਛੇਹਰਟਾ, ਸ਼੍ਰੀ ਅੰਮ੍ਰਿਤਸਰ ਸਾਹਿਬ</p>
+                            <a class="btn btn-primary text-white py-2 px-4" href="https://forms.gle/pSWZMBByEZJqfufH9" target="_blank" onclick="if(confirm('Are you sure you want to give the test?')) { alert('Test will be started on a new page.'); } else { return false; }">Start Test
+                            </a>
+                        </div>
+                    </div>
+                    <div class="class-item bg-white rounded wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="class-img rounded-top">
+                            <img src="img/exam.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="rounded-bottom p-4">
+                            <a href="#" class="h4 mb-3 d-block fw-bold">ਪ੍ਰਕਾਸ਼ ਸ਼੍ਰੀ ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ</a>
+                            <p class="mb-3">ਪ੍ਰਕਾਸ਼ ਸ਼੍ਰੀ ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ,ਪੇਪਰ, ਗੁਰਮਤਿ ਗਿਆਨ ਸਭਾ, ਨਰੈਣਗੜ੍ਹ, ਛੇਹਰਟਾ, ਸ਼੍ਰੀ ਅੰਮ੍ਰਿਤਸਰ ਸਾਹਿਬ</p>
+                            <a class="btn btn-primary text-white py-2 px-4" href="https://forms.gle/nSQCNUE9ALrLu5eL6" target="_blank" onclick="if(confirm('Are you sure you want to give the test?')) { alert('Test will be started on a new page.'); } else { return false; }">Start Test
+                            </a>
+                        </div>
+                    </div>
+                    <div class="class-item bg-white rounded wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="class-img rounded-top">
+                            <img src="img/exam.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="rounded-bottom p-4">
+                            <a href="#" class="h4 mb-3 d-block fw-bold">ਪ੍ਰਕਾਸ਼ ਸ਼੍ਰੀ ਗੁਰੂ ਤੇਗ ਬਹਾਦਰ ਸਾਹਿਬ ਜੀ</a>
+                            <p class="mb-3">ਪ੍ਰਕਾਸ਼ ਸ਼੍ਰੀ ਗੁਰੂ ਤੇਗ ਬਹਾਦਰ ਸਾਹਿਬ ਜੀ,ਪੇਪਰ, ਗੁਰਮਤਿ ਗਿਆਨ ਸਭਾ, ਨਰੈਣਗੜ੍ਹ, ਛੇਹਰਟਾ, ਸ਼੍ਰੀ ਅੰਮ੍ਰਿਤਸਰ ਸਾਹਿਬ</p>
+                            <a class="btn btn-primary text-white py-2 px-4" href="https://forms.gle/box3JnLKPnVYSwaM6" target="_blank" onclick="if(confirm('Are you sure you want to give the test?')) { alert('Test will be started on a new page.'); } else { return false; }">Start Test
+                            </a>
+                        </div>
+                    </div>
+                    <div class="class-item bg-white rounded wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="class-img rounded-top">
+                            <img src="img/exam.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        </div>
+                        <div class="rounded-bottom p-4">
+                            <a href="#" class="h4 mb-3 d-block fw-bold">ਪ੍ਰਕਾਸ਼ ਸ਼੍ਰੀ ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ</a>
+                            <p class="mb-3">ਪ੍ਰਕਾਸ਼ ਸ਼੍ਰੀ ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ,ਪੇਪਰ, ਗੁਰਮਤਿ ਗਿਆਨ ਸਭਾ, ਨਰੈਣਗੜ੍ਹ, ਛੇਹਰਟਾ, ਸ਼੍ਰੀ ਅੰਮ੍ਰਿਤਸਰ ਸਾਹਿਬ</p>
+                            <a class="btn btn-primary text-white py-2 px-4" href="https://forms.gle/vjrsemdadoBj2P3g6" target="_blank" onclick="if(confirm('Are you sure you want to give the test?')) { alert('Test will be started on a new page.'); } else { return false; }">Start Test
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Online Exams Section End -->
 
 
         <!-- Events Start -->
-        <div class="container-fluid events py-5">
+        <div id="offline-exams" class="container-fluid events py-5">
             <div class="container py-5">
                 <div class="pb-5">
                     <div class="row g-4 align-items-end">
@@ -710,16 +769,16 @@
 
 
         <!-- Team Start -->
-        <div class="container-fluid team pb-5">
+        <div id="team" class="container-fluid team pb-5">
             <div class="container pb-5">
                 <div class="pb-5">
-                    <h4 class="text-secondary sub-title fw-bold wow fadeInUp" data-wow-delay="0.1s">Dance Teachers</h4>
-                    <h1 class="display-2 mb-0 wow fadeInUp" data-wow-delay="0.3s">Our Professional Instructor</h1>
+                    <h4 class="text-secondary sub-title fw-bold wow fadeInUp" data-wow-delay="0.1s">Faculty</h4>
+                    <h1 class="display-2 mb-0 wow fadeInUp" data-wow-delay="0.3s">ਟੀਮ ਦੇ ਮੈਂਬਰ</h1>
                 </div>
                 <div class="team-carousel owl-carousel pt-5 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item border rounded wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-img bg-secondary rounded-top">
-                            <img src="img/team/t1.jpeg" class="img-fluid rounded-top w-100" alt="Image">
+                            <img src="img/team/t1.png" class="img-fluid rounded-top w-100" alt="Image">
                             <div class="team-icon">
                                 <!-- <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -732,64 +791,154 @@
                             <p class="mb-0 text-primary">ਧਾਰਮਿਕ ਪ੍ਰੀਖਿਆ ਸੁਪਰਡੈਂਟ</p>
                         </div>
                     </div>
-                    <div class="team-item border rounded wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item border rounded wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-img bg-secondary rounded-top">
-                            <img src="img/team-2.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            <img src="img/team/t2.png" class="img-fluid rounded-top w-100" alt="Image">
                             <div class="team-icon">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <!-- <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a> -->
                             </div>
                         </div>
                         <div class="team-content text-center p-4">
-                            <a href="#" class="h4">Emily Ava</a>
-                            <p class="mb-0 text-primary">Instructor</p>
+                            <a href="#" class="h4">ਨਿਰੰਜਨ ਸਿੰਘ</a>
+                            <p class="mb-0 text-primary">ਧਾਰਮਿਕ ਪ੍ਰੀਖਿਆ ਸੁਪਰਡੈਂਟ</p>
                         </div>
                     </div>
-                    <div class="team-item border rounded wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item border rounded wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-img bg-secondary rounded-top">
-                            <img src="img/team-3.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            <img src="img/team/t3.png" class="img-fluid rounded-top w-100" alt="Image">
                             <div class="team-icon">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <!-- <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a> -->
                             </div>
                         </div>
                         <div class="team-content text-center p-4">
-                            <a href="#" class="h4">Emily Ava</a>
-                            <p class="mb-0 text-primary">Instructor</p>
+                            <a href="#" class="h4">ਪ੍ਰੇਮ ਸਿੰਘ</a>
+                            <p class="mb-0 text-primary">ਧਾਰਮਿਕ ਪ੍ਰੀਖਿਆ ਸੁਪਰਵਾਈਜ਼ਰ</p>
                         </div>
                     </div>
-                    <div class="team-item border rounded wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item border rounded wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-img bg-secondary rounded-top">
-                            <img src="img/team-4.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            <img src="img/team/t4.png" class="img-fluid rounded-top w-100" alt="Image">
                             <div class="team-icon">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <!-- <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a> -->
                             </div>
                         </div>
                         <div class="team-content text-center p-4">
-                            <a href="#" class="h4">Emily Ava</a>
-                            <p class="mb-0 text-primary">Instructor</p>
+                            <a href="#" class="h4">ਸਰਮੁੱਖ ਸਿੰਘ</a>
+                            <p class="mb-0 text-primary">ਗੁਰਮਤਿ ਕੈਂਪ ਇੰਚਾਰਜ</p>
                         </div>
                     </div>
-                    <div class="team-item border rounded wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="team-item border rounded wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-img bg-secondary rounded-top">
-                            <img src="img/team-4.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            <img src="img/team/t5.png" class="img-fluid rounded-top w-100" alt="Image">
                             <div class="team-icon">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <!-- <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a> -->
                             </div>
                         </div>
                         <div class="team-content text-center p-4">
-                            <a href="#" class="h4">Emily Ava</a>
-                            <p class="mb-0 text-primary">Instructor</p>
+                            <a href="#" class="h4">ਰਜਵੰਤ ਸਿੰਘ</a>
+                            <p class="mb-0 text-primary">ਧਾਰਮਿਕ ਪ੍ਰੀਖਿਆ ਸੁਪਰਡੈਂਟ</p>
+                        </div>
+                    </div>
+                    <div class="team-item border rounded wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-img bg-secondary rounded-top">
+                            <img src="img/team/t6.png" class="img-fluid rounded-top w-100" alt="Image">
+                            <div class="team-icon">
+                                <!-- <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a> -->
+                            </div>
+                        </div>
+                        <div class="team-content text-center p-4">
+                            <a href="#" class="h4">ਤਰਲੋਚਨ ਸਿੰਘ ਘਈ</a>
+                            <p class="mb-0 text-primary">ਗੁਰਮਤਿ ਕੈਂਪ ਇੰਚਾਰਜ</p>
+                        </div>
+                    </div>
+                    <div class="team-item border rounded wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-img bg-secondary rounded-top">
+                            <img src="img/team/t7.png" class="img-fluid rounded-top w-100" alt="Image">
+                            <div class="team-icon">
+                                <!-- <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a> -->
+                            </div>
+                        </div>
+                        <div class="team-content text-center p-4">
+                            <a href="#" class="h4">ਅਮਰੀਕ ਸਿੰਘ</a>
+                            <p class="mb-0 text-primary">ਧਰਮਿਕ ਪ੍ਰੀਖਿਆ ਉਪ ਸੁਪਰਡੈਂਟ</p>
+                        </div>
+                    </div>
+                    <div class="team-item border rounded wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-img bg-secondary rounded-top">
+                            <img src="img/team/t8.png" class="img-fluid rounded-top w-100" alt="Image">
+                            <div class="team-icon">
+                                <!-- <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a> -->
+                            </div>
+                        </div>
+                        <div class="team-content text-center p-4">
+                            <a href="#" class="h4">ਸੂਬੇਦਾਰ ਨਗੀਨਾ ਸਿੰਘ</a>
+                            <p class="mb-0 text-primary">ਧਾਰਮਿਕ ਪ੍ਰੀਖਿਆ ਸੁਪਰਵਾਈਜ਼ਰ</p>
+                        </div>
+                    </div>
+                    <div class="team-item border rounded wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-img bg-secondary rounded-top">
+                            <img src="img/team/t9.png" class="img-fluid rounded-top w-100" alt="Image">
+                            <div class="team-icon">
+                                <!-- <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a> -->
+                            </div>
+                        </div>
+                        <div class="team-content text-center p-4">
+                            <a href="#" class="h4">ਪ੍ਰਿੰਸੀਪਲ ਮੇਜਰ ਸਿੰਘ</a>
+                            <p class="mb-0 text-primary">ਪ੍ਰਧਾਨ</p>
+                        </div>
+                    </div>
+                    <div class="team-item border rounded wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-img bg-secondary rounded-top">
+                            <img src="img/team/t10.png" class="img-fluid rounded-top w-100" alt="Image">
+                            <div class="team-icon">
+                                <!-- <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a> -->
+                            </div>
+                        </div>
+                        <div class="team-content text-center p-4">
+                            <a href="#" class="h4">ਸਵਿੰਦਰ ਸਿੰਘ ਬੱਲੋ</a>
+                            <p class="mb-0 text-primary">ਸੀਨੀਅਰ ਮੈਂਬਰ</p>
+                        </div>
+                    </div>
+                    <div class="team-item border rounded wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-img bg-secondary rounded-top">
+                            <img src="img/team/t11.png" class="img-fluid rounded-top w-100" alt="Image">
+                            <div class="team-icon">
+                                <!-- <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a> -->
+                            </div>
+                        </div>
+                        <div class="team-content text-center p-4">
+                            <a href="#" class="h4">ਨਿਸ਼ਾਨ ਸਿੰਘ</a>
+                            <p class="mb-0 text-primary">ਖਜ਼ਾਨਚੀ</p>
                         </div>
                     </div>
                 </div>
@@ -891,7 +1040,7 @@
         <!-- Testimonial End -->
 
         <!-- Donation Section Start -->
-        <div class="container-fluid donation py-5">
+        <div id="donation" class="container-fluid donation py-5">
             <div class="container py-5">
             <div class="pb-5">
                 <h4 class="text-secondary sub-title fw-bold wow fadeInUp" data-wow-delay="0.1s">Donation</h4>
@@ -944,7 +1093,7 @@
         <!-- Donation Section End -->
 
         <!-- Contact Us Start -->
-        <div class="container-fluid contact py-5 bg-light">
+        <div id="contact-us" class="container-fluid contact py-5 bg-light">
             <div class="container py-5 gx-2 rounded">
                 <div class="pb-5">
                     <h4 class="text-secondary sub-title fw-bold wow fadeInUp" data-wow-delay="0.1s">Contact Us</h4>
@@ -976,30 +1125,30 @@
                                 <i class="fas fa-map-marker-alt text-primary me-3"></i>
                                 <div>
                                     <h5 class="mb-0">Address</h5>
-                                    <p class="mb-0">0123.. Street, New York, USA</p>
+                                    <p class="mb-0">ਗੁਰੂ ਅਮਰਦਾਸ ਐਵੀਨਿਉ, ਨਰਾਇਣਗੜ੍ਹ, ਛੇਹਰਟਾ, ਅੰਮ੍ਰਿਤਸਰ।</p>
                                 </div>
                             </div>
                             <div class="d-flex align-items-center mb-3">
                                 <i class="fa fa-phone-alt text-primary me-3"></i>
                                 <div>
                                     <h5 class="mb-0">Phone</h5>
-                                    <p class="mb-0">+012 345 67890</p>
-                                    <p class="mb-0">+012345 67890</p>
+                                    <p class="mb-0">+91 94178-07363</p>
+                                    <!-- <p class="mb-0">+012345 67890</p> -->
                                 </div>
                             </div>
                             <div class="d-flex align-items-center mb-3">
                                 <i class="fas fa-envelope text-primary me-3"></i>
                                 <div>
                                     <h5 class="mb-0">Email</h5>
-                                    <p class="mb-0">info@example.com</p>
+                                    <p class="mb-0">gurmatgyansabha@gmail.com</p>
                                 </div>
                             </div>
                             <div class="d-flex align-items-center">
                                 <i class="fas fa-clock text-primary me-3"></i>
                                 <div>
                                     <h5 class="mb-0">Working Hours</h5>
-                                    <p class="mb-0">Mon - Fri: 08:00AM - 10:00PM</p>
-                                    <p class="mb-0">Sat - Sun: 08:00AM - 10:00PM</p>
+                                    <p class="mb-0">Mon - Fri: 09:00AM - 05:00PM</p>
+                                    <!-- <p class="mb-0">Sat - Sun: 08:00AM - 05:00PM</p> -->
                                 </div>
                             </div>
                         </div>
@@ -1017,8 +1166,10 @@
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
                             <div class="footer-item">
-                                <h4 class="text-white mb-4">JustDanc</h4>
-                                <p class="text-white mb-3">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
+                                <h4 class="text-white mb-4">ਗੁਰਮਤਿ ਗਿਆਨ ਸਭਾ</h4>
+                                <p class="text-white mb-3">ਕਹੈ ਨਾਨਕੁ ਜਿਸ ਨੋ ਆਪਿ ਤੁਠਾ ਤਿਨਿ ਅੰਮ੍ਰਿਤੁ ਗੁਰ ਤੇ ਪਾਇਆ ॥</p>
+                                <p class="text-white mb-3">ਏ ਮਨ ਪਿਆਰਿਆ ਤੂ ਸਦਾ ਸਚੁ ਸਮਾਲੇ ॥</p>
+                                <p class="text-white mb-3">ਐਸਾ ਕੰਮੁ ਮੂਲੇ ਨ ਕੀਚੈ ਜਿਤੁ ਅੰਤਿ ਪਛੋਤਾਈਐ ॥</p>
                                 <div class="d-flex">
                                     <a class="btn btn-lg-square btn-primary rounded-circle me-2" href="https://www.facebook.com/profile.php?id=6156456407514" target="_blank"><i class="fab fa-facebook-f"></i></a>
                                     <!-- <a class="btn btn-lg-square btn-primary rounded-circle mx-2" href=""><i class="fab fa-twitter"></i></a>
@@ -1033,14 +1184,14 @@
                             <h4 class="text-white mb-4">Address</h4>
                             <div class="d-flex align-items-center mb-3">
                                 <a class="btn btn-lg-square btn-primary rounded-circle mx-2" href=""><i class="fas fa-map-marker-alt"></i></a>
-                                <div class="text-white ms-2">
-                                    <p class="mb-0">0123.. Street, New York, USA</p>
+                                <div class="text-white ms-1">
+                                    <p class="mb-0">ਗੁਰੂ ਅਮਰਦਾਸ ਐਵੀਨਿਉ, ਨਰਾਇਣਗੜ੍ਹ, ਛੇਹਰਟਾ</p>
                                 </div>
                             </div>
                             <div class="d-flex align-items-center mb-3">
                                 <a class="btn btn-lg-square btn-primary rounded-circle mx-2" href=""><i class="fa fa-phone-alt"></i></a>
                                 <div class="text-white ms-2">
-                                    <p class="mb-0">+91 84178-07363</p>
+                                    <p class="mb-0">+91 94178-07363</p>
                                 </div>
                             </div>
                             <div class="d-flex align-items-center">
@@ -1054,20 +1205,22 @@
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
                             <h4 class="text-white mb-4">Quick Links</h4>
-                            <a href="#" class="footer-link"> About Us</a>
-                            <a href="#" class="footer-link"> Classes</a>
-                            <a href="#" class="footer-link"> Privacy Policy</a>
-                            <a href="#" class="footer-link"> Terms & Conditions</a>
-                            <a href="#" class="footer-link"> Schedule</a>
-                            <a href="#" class="footer-link"> FAQ</a>
-                            <a href="#" class="footer-link"> Contact Us</a>
+                            <a href="#carousel" class="footer-link"> Home</a>
+                            <a href="#about-us" class="footer-link"> About</a>
+                            <a href="#gallery" class="footer-link"> Gallery</a>
+                            <a href="#sikh-culture" class="footer-link"> Sikh Culture</a>
+                            <a href="#online-exams" class="footer-link"> Online Exams</a>
+                            <a href="#offline-exams" class="footer-link"> Offline Exams</a>
+                            <a href="#team" class="footer-link"> Team Members</a>
+                            <a href="#donation" class="footer-link"> Donation</a>
+                            <a href="#contact-us" class="footer-link"> Contact Us</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
                             <div class="footer-item">
-                                <h4 class="text-white mb-4">Newsletter</h4>
-                                <p class="text-white mb-3">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
+                                <h4 class="text-white mb-4">ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖਾਲਸਾ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਹਿ ||</h4>
+                                <!-- <p class="text-white mb-3">ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖਾਲਸਾ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਹਿ ||</p> -->
                                 <!-- <div class="position-relative mx-auto">
                                     <input class="form-control w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
                                     <button type="button" class="btn btn-primary position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
